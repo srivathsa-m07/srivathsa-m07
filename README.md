@@ -1,4 +1,6 @@
-﻿<div align="center">
+﻿<p align="center"><img src="assets/banner.svg" width="1600" height="500" alt="Profile banner" /></p>
+
+<div align="center">
 
 <p>👋 Hi, I'm</p>
 
