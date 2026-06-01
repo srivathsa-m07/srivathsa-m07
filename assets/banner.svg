@@ -1,135 +1,155 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" preserveAspectRatio="xMidYMid meet">
   <defs>
     <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#0B1220"/>
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#071019" />
     </linearGradient>
-    <linearGradient id="panelGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#111827" stop-opacity="0.6"/>
+    <linearGradient id="softBlue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
     </linearGradient>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0 L0 0 0 40" fill="none" stroke="#071025" stroke-width="0.6"/>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 L0 0 0 60" fill="none" stroke="#082839" stroke-width="0.8" />
     </pattern>
-    <style>
-      .title { font: 700 44px 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill: #F8FAFC; }
-      .subtitle { font: 600 18px 'Inter', system-ui, sans-serif; fill: #94A3B8; }
-      .role { font: 600 14px 'Inter', system-ui, sans-serif; fill: #94A3B8; }
-      .nodeLabel { font: 600 13px 'Inter', system-ui, sans-serif; fill: #F8FAFC; }
-      .nodeSmall { font: 500 12px 'Inter', system-ui, sans-serif; fill: #94A3B8; }
-    </style>
   </defs>
 
-  <!-- Background -->
+  <!-- Background layers -->
   <rect width="1600" height="500" fill="url(#bg)" />
-  <rect width="1600" height="500" fill="url(#grid)" opacity="0.06" />
+  <rect width="1600" height="500" fill="url(#grid)" opacity="0.08" />
 
-  <!-- Left panel (glass) -->
-  <g transform="translate(60,60)">
-    <rect x="0" y="0" width="640" height="380" rx="18" fill="url(#panelGrad)" stroke="#0b1220" stroke-opacity="0.4" />
-    <rect x="0" y="0" width="640" height="380" rx="18" fill="rgba(255,255,255,0.02)" />
-
-    <!-- Name and roles -->
-    <text x="36" y="86" class="title">SRIVATHSA M</text>
-    <text x="36" y="126" class="subtitle">Software Engineer</text>
-    <text x="36" y="154" class="role">Full Stack Development • Backend Engineering • AI Systems</text>
-
-    <!-- Accent line -->
-    <rect x="36" y="170" width="120" height="4" rx="2" fill="#2563EB" opacity="0.95" filter="url(#softGlow)" />
-
-    <!-- Small descriptive bullets -->
-    <g transform="translate(36,200)">
-      <rect width="36" height="36" rx="8" fill="#0b1220" stroke="#1f2937" />
-      <text x="48" y="24" class="nodeSmall">Building reliable, scalable systems and ML-enabled products.</text>
+  <!-- Layer 1: faint particles -->
+  <g id="layer1" opacity="0.55">
+    <g>
+      <circle cx="120" cy="90" r="1.8" fill="#2563EB" opacity="0.85">
+        <animate attributeName="cx" values="120;140;120" dur="22s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="90;95;90" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="340" cy="180" r="2.2" fill="#06B6D4" opacity="0.72">
+        <animate attributeName="cx" values="340;360;340" dur="24s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="180;175;180" dur="20s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="720" cy="70" r="1.6" fill="#2563EB" opacity="0.78">
+        <animate attributeName="cx" values="720;700;720" dur="20s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="70;76;70" dur="16s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1040" cy="140" r="1.4" fill="#06B6D4" opacity="0.7">
+        <animate attributeName="cx" values="1040;1060;1040" dur="26s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="140;148;140" dur="22s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1450" cy="90" r="1.9" fill="#2563EB" opacity="0.8">
+        <animate attributeName="cx" values="1450;1430;1450" dur="28s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="90;84;90" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1580" cy="240" r="2.0" fill="#06B6D4" opacity="0.75">
+        <animate attributeName="cx" values="1580;1565;1580" dur="30s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="240;234;240" dur="25s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g>
+      <circle cx="220" cy="270" r="1.5" fill="#06B6D4" opacity="0.8">
+        <animate attributeName="cx" values="220;205;220" dur="26s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="270;264;270" dur="24s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="520" cy="380" r="1.7" fill="#2563EB" opacity="0.78">
+        <animate attributeName="cx" values="520;535;520" dur="20s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="380;386;380" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="880" cy="310" r="1.5" fill="#06B6D4" opacity="0.77">
+        <animate attributeName="cx" values="880;900;880" dur="24s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="310;304;310" dur="22s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1220" cy="360" r="1.6" fill="#2563EB" opacity="0.76">
+        <animate attributeName="cx" values="1220;1200;1220" dur="30s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="360;368;360" dur="26s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1480" cy="320" r="1.4" fill="#06B6D4" opacity="0.72">
+        <animate attributeName="cx" values="1480;1500;1480" dur="22s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="320;314;320" dur="20s" repeatCount="indefinite" />
+      </circle>
     </g>
   </g>
 
-  <!-- Right architecture visualization -->
-  <g transform="translate(780,60)">
-    <!-- Framed panel -->
-    <rect x="0" y="0" width="740" height="380" rx="18" fill="rgba(17,24,39,0.05)" stroke="#0b1220"/>
+  <!-- Layer 2: dynamic connection network -->
+  <g id="layer2" opacity="0.7">
+    <path d="M140 70 C320 20, 460 120, 600 60" fill="none" stroke="rgba(37,99,235,0.42)" stroke-width="1.2" />
+    <path d="M360 140 C510 190, 650 90, 780 140" fill="none" stroke="rgba(6,182,212,0.35)" stroke-width="1.2" />
+    <path d="M760 60 C880 10, 1040 120, 1150 70" fill="none" stroke="rgba(37,99,235,0.42)" stroke-width="1.2" />
+    <path d="M1020 180 C1180 240, 1260 120, 1460 180" fill="none" stroke="rgba(6,182,212,0.35)" stroke-width="1.2" />
 
-    <!-- Layers (stacked) -->
-    <!-- Frontend layer -->
-    <g transform="translate(80,36)">
-      <text x="0" y="14" class="nodeSmall" fill="#94A3B8">Frontend</text>
-      <g transform="translate(0,18)">
-        <circle cx="36" cy="36" r="18" fill="#06B6D4" opacity="0.98" filter="url(#softGlow)"/>
-        <text x="70" y="42" class="nodeLabel">React</text>
-
-        <circle cx="36" cy="92" r="18" fill="#06B6D4" opacity="0.9"/>
-        <text x="70" y="98" class="nodeLabel">Next.js</text>
-
-        <!-- connector -->
-        <path d="M36 54 L36 76" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round" opacity="0.5" />
-      </g>
-    </g>
-
-    <!-- Backend layer -->
-    <g transform="translate(260,80)">
-      <text x="0" y="14" class="nodeSmall" fill="#94A3B8">Backend</text>
-      <g transform="translate(0,18)">
-        <rect x="0" y="18" width="44" height="36" rx="8" fill="#2563EB" />
-        <text x="64" y="42" class="nodeLabel">Node.js</text>
-
-        <rect x="0" y="74" width="64" height="36" rx="8" fill="#2563EB" opacity="0.95" />
-        <text x="74" y="98" class="nodeLabel">Express.js</text>
-
-        <!-- vertical connector from frontend to backend -->
-        <path d="M36 110 L36 140" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.4" />
-      </g>
-    </g>
-
-    <!-- Database layer -->
-    <g transform="translate(140,200)">
-      <text x="0" y="14" class="nodeSmall" fill="#94A3B8">Database</text>
-      <g transform="translate(0,18)">
-        <ellipse cx="36" cy="38" rx="22" ry="14" fill="#10B981" />
-        <text x="70" y="42" class="nodeLabel">MySQL</text>
-
-        <ellipse cx="36" cy="86" rx="22" ry="14" fill="#10B981" opacity="0.95" />
-        <text x="70" y="90" class="nodeLabel">PostgreSQL</text>
-
-        <ellipse cx="36" cy="134" rx="22" ry="14" fill="#10B981" opacity="0.9" />
-        <text x="70" y="138" class="nodeLabel">MongoDB</text>
-
-        <!-- connector to AI layer -->
-        <path d="M36 152 L36 190" stroke="#94A3B8" stroke-width="1.2" opacity="0.35" />
-      </g>
-    </g>
-
-    <!-- AI layer -->
-    <g transform="translate(380,240)">
-      <text x="0" y="14" class="nodeSmall" fill="#94A3B8">AI Systems</text>
-      <g transform="translate(0,18)">
-        <rect x="0" y="18" width="120" height="40" rx="10" fill="#0f172a" stroke="#06B6D4" stroke-width="1" filter="url(#softGlow)"/>
-        <text x="12" y="44" class="nodeLabel">AI Systems</text>
-
-        <rect x="0" y="74" width="120" height="36" rx="10" fill="#0f172a" stroke="#2563EB" stroke-width="1" opacity="0.95"/>
-        <text x="12" y="98" class="nodeLabel">ML Services</text>
-
-        <rect x="0" y="120" width="120" height="36" rx="10" fill="#0f172a" stroke="#06B6D4" stroke-width="1" opacity="0.9"/>
-        <text x="12" y="144" class="nodeLabel">Data Flow</text>
-      </g>
-    </g>
-
-    <!-- subtle connecting lines across the architecture for flow -->
-    <g stroke="#94A3B8" stroke-width="1" stroke-linecap="round" opacity="0.45">
-      <path d="M180 120 L240 120" />
-      <path d="M240 120 L300 190" stroke-dasharray="6 4"/>
-      <path d="M300 190 L420 240" stroke-dasharray="4 3"/>
-    </g>
-
+    <circle cx="150" cy="72" r="4" fill="#2563EB" opacity="0.95">
+      <animate attributeName="r" values="4;5;4" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="340" cy="53" r="3.8" fill="#06B6D4" opacity="0.9">
+      <animate attributeName="r" values="3.8;4.6;3.8" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="610" cy="64" r="4.4" fill="#2563EB" opacity="0.9">
+      <animate attributeName="r" values="4.4;5.2;4.4" dur="6.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="840" cy="138" r="4" fill="#06B6D4" opacity="0.92">
+      <animate attributeName="r" values="4;4.8;4" dur="6.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1120" cy="70" r="3.6" fill="#2563EB" opacity="0.88">
+      <animate attributeName="r" values="3.6;4.4;3.6" dur="7.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1380" cy="176" r="4.2" fill="#06B6D4" opacity="0.9">
+      <animate attributeName="r" values="4.2;5;4.2" dur="6.6s" repeatCount="indefinite" />
+    </circle>
   </g>
 
-  <!-- subtle vignette -->
-  <rect width="1600" height="500" fill="url(#bg)" opacity="0.02" />
+  <!-- Layer 3: focal nodes -->
+  <g id="layer3" opacity="0.9">
+    <g>
+      <circle cx="450" cy="320" r="12" fill="#2563EB" filter="url(#glow)" opacity="0.88">
+        <animate attributeName="cx" values="450;466;450" dur="16s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="320;312;320" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="450" cy="320" r="22" fill="none" stroke="#2563EB" stroke-width="0.9" opacity="0.3">
+        <animate attributeName="r" values="22;24;22" dur="18s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g>
+      <circle cx="920" cy="210" r="13" fill="#06B6D4" filter="url(#glow)" opacity="0.9">
+        <animate attributeName="cx" values="920;940;920" dur="15s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="210;218;210" dur="17s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="920" cy="210" r="26" fill="none" stroke="#06B6D4" stroke-width="0.9" opacity="0.28">
+        <animate attributeName="r" values="26;29;26" dur="17s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g>
+      <circle cx="1320" cy="330" r="11" fill="#10B981" filter="url(#glow)" opacity="0.84">
+        <animate attributeName="cx" values="1320;1310;1320" dur="19s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="330;338;330" dur="20s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1320" cy="330" r="22" fill="none" stroke="#10B981" stroke-width="0.8" opacity="0.2">
+        <animate attributeName="r" values="22;25;22" dur="19s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g>
+      <circle cx="1080" cy="380" r="10" fill="#2563EB" filter="url(#glow)" opacity="0.83">
+        <animate attributeName="cx" values="1080;1094;1080" dur="16s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="380;372;380" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1080" cy="380" r="20" fill="none" stroke="#2563EB" stroke-width="0.8" opacity="0.24">
+        <animate attributeName="r" values="20;22;20" dur="16s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+
+  <!-- Flow ribbons -->
+  <path d="M200 430 C360 390, 520 480, 700 420 S1040 440, 1240 400" fill="none" stroke="rgba(37,99,235,0.16)" stroke-width="5" stroke-linecap="round" />
+  <path d="M320 450 C430 415, 560 470, 680 430 S930 420, 1200 395" fill="none" stroke="rgba(6,182,212,0.14)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- subtle ambient glow -->
+  <circle cx="860" cy="120" r="90" fill="#2563EB" opacity="0.02" />
+  <circle cx="230" cy="390" r="60" fill="#06B6D4" opacity="0.03" />
+  <circle cx="1470" cy="90" r="55" fill="#10B981" opacity="0.03" />
 </svg>
