@@ -1,68 +1,62 @@
-<!-- Banner placeholder: modern product-style visual for web, data, real-time, and AI interaction -->
+<svg width="100%" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Premium engineering banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="220" rx="24" fill="url(#bg)" />
+  <rect x="42" y="46" width="310" height="124" rx="20" fill="#111827" stroke="#1F2937" stroke-width="2" />
+  <rect x="386" y="52" width="232" height="72" rx="18" fill="#111827" stroke="#1F2937" stroke-width="2" />
+  <rect x="386" y="138" width="232" height="72" rx="18" fill="#111827" stroke="#1F2937" stroke-width="2" />
+  <rect x="648" y="72" width="284" height="100" rx="18" fill="#111827" stroke="#1F2937" stroke-width="2" />
+  <circle cx="112" cy="98" r="10" fill="#3B82F6" />
+  <circle cx="346" cy="88" r="8" fill="#22C55E" />
+  <circle cx="346" cy="168" r="8" fill="#38BDF8" />
+  <line x1="152" y1="98" x2="386" y2="88" stroke="#475569" stroke-width="2" stroke-dasharray="8 6" />
+  <line x1="152" y1="98" x2="386" y2="168" stroke="#475569" stroke-width="2" stroke-dasharray="8 6" />
+  <text x="62" y="78" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="24" font-weight="700">Srivathsa M</text>
+  <text x="62" y="104" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14">Full Stack · AI Systems · Software engineering</text>
+  <text x="398" y="82" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">Frontend flows</text>
+  <text x="398" y="102" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">React / Next / Tailwind</text>
+  <text x="398" y="148" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">Backend logic</text>
+  <text x="398" y="168" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Node / Express / Socket.IO</text>
+  <text x="650" y="92" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="600">Data modeling</text>
+  <text x="650" y="112" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">MySQL · PostgreSQL · MongoDB</text>
+  <path d="M660 150 C700 130 760 170 820 150" fill="none" stroke="url(#wave)" stroke-width="4" opacity="0.7" />
+</svg>
 
 # Srivathsa M
 
-Full Stack + AI Systems engineer preparing for high-quality internships and early-career roles.
+Software engineering, full stack systems, AI-aware workflows.
 
 ---
 
-## Hero
+## Platform overview
 
-**Who is this engineer?**
-- Builds full stack applications with attention to interface flow, backend behavior, and data logic.
-- Designs AI-aware features that belong inside real application workflows.
-
-**What systems does he build?**
-- Web applications with frontend interactivity, backend endpoints, and database-backed state.
-- Real-time experiences and AI-enhanced tooling that support practical use cases.
-
-**How does he think?**
-- In terms of user flow, request-response clarity, and maintainable implementation.
-- With a focus on concise code, understandable architecture, and reliable delivery.
-
----
-
-## Engineering journey
-
-| Frontend | Backend | Data | AI systems |
+| **Frontend** | **Backend** | **Data** | **Core** |
 |---|---|---|---|
-| React.js / Next.js interfaces | Node.js / Express.js services | MySQL · PostgreSQL · MongoDB | Python-powered workflows |
-| clean component structure | REST and Socket.IO flows | relational and document models | task-aware feature logic |
+| React · Next · Tailwind | Node · Express · Socket.IO | MySQL · PostgreSQL · MongoDB | DSA · OOP · DBMS |
+| interactive UI patterns | application service logic | relational + document flow | structured problem-solving |
 
 ---
 
-## Current focus
+## Profile cards
 
-- sharpening full stack application design
-- delivering UI-driven features with backend consistency
-- applying AI systems in ways that fit product intent
-
----
-
-## Selected engineering domains
-
-- **Interface logic** — practical React and Next.js components.
-- **Service layer** — Node.js endpoints and Socket.IO interactions.
-- **Data handling** — database queries, schema design, and persistence.
-- **AI systems** — Python-based workflows that support application value.
+| **LeetCode** | **SkillRack** | **CodeChef** | **HackerRank** |
+|---|---|---|---|
+| 275+ solved | 1035+ solved | 275+ solved | Python · C++ · SQL · Java |
+| algorithm practice | extensive problem sets | competitive programming | language badges |
 
 ---
 
-## Minimal ecosystem
+## Contact
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+| GitHub | Connect |
+|---|---|
+| [github.com/srivathsa-m07](https://github.com/srivathsa-m07) | open to software engineering internships and early-career roles |
 
----
-
-## Coding achievements
-
-- LeetCode: 275+ solved
-- SkillRack: 1035+ solved
-- CodeChef: 275+ solved
-- HackerRank: badges/stars in Python, C++, SQL, Java
-
----
-
-## Professional links
-
-- GitHub: https://github.com/srivathsa-m07
