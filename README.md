@@ -6,7 +6,7 @@
 
 ### Software Engineer
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&size=32&duration=3000&color=FFFFFF&center=true&vCenter=true&width=720&lines=Full+Stack+Developer;AI+Systems+Builder;Java+Backend+Developer;React+Developer" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=32&duration=3000&color=FFFFFF&center=true&vCenter=true&width=720&lines=Full+Stack+Developer;AI+Systems+Builder;" alt="Typing Animation" />
 
 Focused on Full Stack Development, Backend Engineering, and AI Systems.
 
@@ -112,7 +112,7 @@ Focused on Full Stack Development, Backend Engineering, and AI Systems.
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/srivathsa-m07">
+  <a href="https://www.linkedin.com/in/srivathsa-m/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
