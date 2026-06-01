@@ -1,74 +1,134 @@
-<svg width="100%" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Premium GitHub profile banner">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1220" />
-      <stop offset="100%" stop-color="#111827" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3B82F6" />
-      <stop offset="100%" stop-color="#22C55E" />
-    </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.18" />
-    </filter>
-  </defs>
-  <rect width="1000" height="260" rx="32" fill="url(#bg)" />
-  <rect x="48" y="48" width="360" height="164" rx="28" fill="#111827" stroke="#1F2937" stroke-width="2" filter="url(#soft)" />
-  <rect x="432" y="56" width="252" height="72" rx="18" fill="#111827" stroke="#1F2937" stroke-width="2" />
-  <rect x="432" y="152" width="312" height="96" rx="18" fill="#111827" stroke="#1F2937" stroke-width="2" />
-  <path d="M420 84 C500 40 600 40 680 84 S 820 180 900 150" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.88" />
-  <circle cx="420" cy="176" r="10" fill="#3B82F6" />
-  <circle cx="454" cy="106" r="8" fill="#22C55E" />
-  <circle cx="722" cy="192" r="8" fill="#38BDF8" />
-  <text x="76" y="86" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="30" font-weight="800">SRIVATHSA M</text>
-  <text x="76" y="126" fill="#94A3B8" font-family="Inter, sans-serif" font-size="16" letter-spacing="0.18em">Software Engineer</text>
-  <text x="76" y="154" fill="#94A3B8" font-family="Inter, sans-serif" font-size="16" letter-spacing="0.16em">Full Stack • AI Systems</text>
-  <line x1="76" y1="170" x2="216" y2="170" stroke="#3B82F6" stroke-width="2" />
-  <g opacity="0.8">
-    <rect x="452" y="64" width="84" height="18" rx="9" fill="#1F2937" />
-    <rect x="452" y="94" width="140" height="10" rx="5" fill="#1F2937" />
-    <rect x="452" y="158" width="140" height="10" rx="5" fill="#1F2937" />
-    <rect x="452" y="182" width="110" height="10" rx="5" fill="#1F2937" />
-    <rect x="592" y="182" width="110" height="10" rx="5" fill="#1F2937" />
-  </g>
-</svg>
+﻿<div align="center">
+  <svg width="100%" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Premium GitHub profile banner">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0B1220" />
+        <stop offset="100%" stop-color="#111827" />
+      </linearGradient>
+      <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3B82F6" />
+        <stop offset="100%" stop-color="#22C55E" />
+      </linearGradient>
+    </defs>
+    <rect width="1000" height="260" rx="34" fill="url(#bg)" />
+    <rect x="60" y="52" width="420" height="156" rx="28" fill="#111827" stroke="#1F2937" stroke-width="2" />
+    <rect x="520" y="72" width="300" height="92" rx="22" fill="#111827" stroke="#1F2937" stroke-width="2" />
+    <rect x="520" y="180" width="300" height="72" rx="22" fill="#111827" stroke="#1F2937" stroke-width="2" />
+    <path d="M 520 146 C 580 110 680 110 740 146 S 860 210 920 180" fill="none" stroke="url(#stroke)" stroke-width="4" opacity="0.88" />
+    <circle cx="90" cy="140" r="10" fill="#3B82F6" />
+    <circle cx="570" cy="110" r="8" fill="#22C55E" />
+    <circle cx="740" cy="210" r="8" fill="#38BDF8" />
+    <text x="88" y="92" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="30" font-weight="800">SRIVATHSA M</text>
+    <text x="90" y="132" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14" letter-spacing="0.18em">SOFTWARE ENGINEER</text>
+    <text x="90" y="158" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14" letter-spacing="0.18em">FULL STACK • AI SYSTEMS</text>
+    <line x1="90" y1="168" x2="210" y2="168" stroke="#3B82F6" stroke-width="2" />
+  </svg>
+</div>
 
-# SRIVATHSA M
+<div align="center" style="margin:24px 0 10px;">
+  <p style="margin:0;font-size:1.1rem;font-weight:700;letter-spacing:0.12em;color:#E2E8F0;">TECHNOLOGY ECOSYSTEM</p>
+</div>
 
-Software Engineer
+<div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:18px;max-width:1020px;margin:16px auto;">
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:22px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 16px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">Languages</p>
+    <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;">
+      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/TypeScript-2F74C0?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    </div>
+  </div>
 
-Full Stack • AI Systems
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:22px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 16px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">Frontend</p>
+    <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;">
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+      <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    </div>
+  </div>
 
----
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:22px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 16px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">Backend</p>
+    <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;">
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+      <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO" />
+    </div>
+  </div>
 
-## Technology ecosystem
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:22px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 16px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">Database</p>
+    <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px;">
+      <img src="https://img.shields.io/badge/MySQL-003B57?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    </div>
+  </div>
 
-| **Languages** | **Frontend** | **Backend** |
-|---|---|---|
-| ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-2F74C0?style=flat-square&logo=typescript&logoColor=white) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white) ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white) |
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:22px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 16px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">Core CS</p>
+    <div style="display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:10px;">
+      <img src="https://img.shields.io/badge/DSA-2563EB?style=for-the-badge&logo=readthedocs&logoColor=white" alt="DSA" />
+      <img src="https://img.shields.io/badge/OOP-10B981?style=for-the-badge&logo=readthedocs&logoColor=white" alt="OOP" />
+      <img src="https://img.shields.io/badge/DBMS-7C3AED?style=for-the-badge&logo=readthedocs&logoColor=white" alt="DBMS" />
+    </div>
+  </div>
+</div>
 
-| **Databases** | **Tools** | **Core CS** |
-|---|---|---|
-| ![MySQL](https://img.shields.io/badge/MySQL-003B57?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) | ![DSA](https://img.shields.io/badge/DSA-2563EB?style=flat-square&logo=readthedocs&logoColor=white) ![OOP](https://img.shields.io/badge/OOP-10B981?style=flat-square&logo=readthedocs&logoColor=white) ![DBMS](https://img.shields.io/badge/DBMS-7C3AED?style=flat-square&logo=readthedocs&logoColor=white) |
+<div align="center" style="margin:36px 0 10px;">
+  <p style="margin:0;font-size:1.1rem;font-weight:700;letter-spacing:0.12em;color:#E2E8F0;">COMPETITIVE PROGRAMMING</p>
+</div>
 
----
+<div align="center" style="display:flex;flex-wrap:wrap;justify-content:center;gap:18px;max-width:1020px;margin:16px auto;">
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:24px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 12px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">LeetCode</p>
+    <p style="margin:0;font-size:2.4rem;font-weight:800;color:#FFFFFF;">275+</p>
+    <p style="margin:8px 0 0;color:#94A3B8;font-size:0.95rem;">Problems solved</p>
+    <img src="https://leetcode-stats.vercel.app?username=srivathsa-m07&theme=dark&hide_border=true" alt="LeetCode stats" style="margin-top:14px;width:100%;border-radius:16px;" />
+  </div>
 
-## Competitive programming
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:24px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 12px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">SkillRack</p>
+    <p style="margin:0;font-size:2.4rem;font-weight:800;color:#FFFFFF;">1035+</p>
+    <p style="margin:8px 0 0;color:#94A3B8;font-size:0.95rem;">Problems solved</p>
+  </div>
 
-| **LeetCode** | **SkillRack** | **CodeChef** | **HackerRank** |
-|---|---|---|---|
-| <span style="font-size:18px;font-weight:700;">275+</span><br><span style="color:#94A3B8;">Problems</span> | <span style="font-size:18px;font-weight:700;">1035+</span><br><span style="color:#94A3B8;">Problems</span> | <span style="font-size:18px;font-weight:700;">275+</span><br><span style="color:#94A3B8;">Problems</span> | <span style="font-size:14px;font-weight:600;">Python · C++ · SQL · Java</span> |
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:24px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 12px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">CodeChef</p>
+    <p style="margin:0;font-size:2.4rem;font-weight:800;color:#FFFFFF;">275+</p>
+    <p style="margin:8px 0 0;color:#94A3B8;font-size:0.95rem;">Problems solved</p>
+  </div>
 
----
+  <div style="min-width:220px;max-width:260px;border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:24px;background:#111827;box-shadow:0 24px 60px rgba(15,23,42,0.15);">
+    <p style="margin:0 0 12px;font-size:0.95rem;font-weight:700;color:#F8FAFC;">HackerRank</p>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+    </div>
+  </div>
+</div>
 
-## Tools & platforms
+<div align="center" style="margin:36px 0 10px;">
+  <p style="margin:0;font-size:1.1rem;font-weight:700;letter-spacing:0.12em;color:#E2E8F0;">GITHUB ANALYTICS</p>
+</div>
 
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Power%20BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=microsoft-power-bi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-223B87?style=flat-square&logo=tableau&logoColor=white)
+<div align="center" style="margin:16px auto;max-width:760px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=srivathsa-m07&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats" style="width:100%;border-radius:24px;box-shadow:0 24px 60px rgba(15,23,42,0.2);" />
+</div>
 
----
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srivathsa-m07) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/srivathsa-m07) [![Email](https://img.shields.io/badge/Email-52525B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@srivathsa-m07.dev) [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=readthedocs&logoColor=white)](https://srivathsa-m07.dev)
-
-
+<div align="center" style="margin:40px 0 20px;">
+  <p style="margin:0;font-size:1.1rem;font-weight:700;letter-spacing:0.12em;color:#E2E8F0;">CONNECT</p>
+  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:18px;">
+    <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://github.com/srivathsa-m07" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Email-52525B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Portfolio" /></a>
+  </div>
+</div>
